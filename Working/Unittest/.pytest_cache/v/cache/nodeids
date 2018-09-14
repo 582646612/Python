@@ -1,6 +1,0 @@
-[
-  "Test_Math.py::TestMath::test_add", 
-  "Test_Math.py::TestMath::test_divide", 
-  "Test_Math.py::TestMath::test_minus", 
-  "Test_Math.py::TestMath::test_multi"
-]
