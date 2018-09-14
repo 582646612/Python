@@ -1,0 +1,11 @@
+*** Settings ***
+Library           Selenium2Library
+Resource          功能.txt
+Library           AutoItLibrary
+
+*** Test Cases ***
+订单回访
+    打开浏览器    http://135.64.22.33:18082/ordercenter
+    用户登录
+    宽带移机
+    关闭浏览器

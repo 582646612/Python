@@ -1,0 +1,18 @@
+*** Keywords ***
+用户名
+    [Arguments]    ${name}
+    input text    id=usernameInput    ${name}
+
+密码
+    [Arguments]    ${pwd}
+    input text    id=passwordInput    ${pwd}
+
+点击登录
+    click button    id=loginButton
+
+宽带移机路径
+    sleep    2
+    Click Element    xpath:/html/body/div[3]/div/div/div[2]/div[1]/div[1]
+    sleep    2
+    Click element    xpath:/html/body/div[3]/div/div/div[2]/div[2]/ul/li[1]/a/span[1]
+    Click element    xpath:/html/body/div[2]/div[2]/table/tbody/tr[3]/td[5]/div[1]/a

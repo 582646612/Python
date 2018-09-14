@@ -1,0 +1,6 @@
+*** Settings ***
+Resource          功能.txt
+
+*** Test Cases ***
+test
+    搜索    中国联通
