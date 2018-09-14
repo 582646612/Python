@@ -10,38 +10,24 @@ from email import encoders
 
 sender = 'cs825096095@163.com'
 receiver = "825096095@qq.com"
-subject = 'python email test'
+subject = '周末去昆明'
 smtpserver = 'smtp.163.com'
 username = 'cs825096095@163.com'
 password = 'cs123456'
 
 
-msg = MIMEMultipart()
+msg = MIMEMultipart("alternative")
 msg['From'] = sender
 msg['To'] = receiver
-subject = '测血压方式医院'
+subject = '昆明大观楼'
 msg['Subject'] = Header(subject, 'utf-8')
-msg.attach(MIMEText('send with file...', 'plain', 'utf-8'))
-# 添加附件就是加上一个MIMEBase，从本地读取一个图片:
-with open('C:\\Users\\sw\\Desktop\\图片\\12d8ba206c7815fe7a2377006f21b353.gif', 'rb') as f:
-    # 设置附件的MIME和文件名，这里是png类型:
-    mime = MIMEBase('image', 'gif', filename='12d8ba206c7815fe7a2377006f21b353.gif')
-    # 加上必要的头信息:
-    mime.add_header('Content-Disposition', 'attachment', filename='12d8ba206c7815fe7a2377006f21b353.gif')
-    mime.add_header('Content-ID', '<0>')
-    mime.add_header('X-Attachment-Id', '0')
-    # 把附件的内容读进来:
-    mime.set_payload(f.read())
-    # 用Base64编码:
-    encoders.encode_base64(mime)
-    # 添加到MIMEMultipart:
-    msg.attach(mime)
+msg.attach(MIMEText('test...', 'plain', 'utf-8'))
+html =open(r'D:\python\Working\Unittest\HtmlReport.html', 'rb')
+message = MIMEText(html.read(), 'html', 'utf-8')
+html.close()
+msg.attach(message)
 
-# msg = MIMEText("lsdlksalksdjkl")  # 中文需参数‘utf-8’，单字节字符不需要
 
-# msg = MIMEText('<html><body><h1>Hello</h1>' +
-#     '<p>send by <a href="http://www.python.org">Python</a>...</p>' +
-#     '</body></html>', 'html', 'utf-8')
 
 
 try:

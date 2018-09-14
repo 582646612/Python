@@ -15,7 +15,7 @@ password = 'cs123456'
 msg = MIMEText("testing")  # 中文需参数‘utf-8’，单字节字符不需要
 msg['From'] = sender
 msg['To'] = receiver
-subject = '标题'
+subject = '测试标题'
 msg['Subject'] = Header(subject, 'utf-8')
 
 try:

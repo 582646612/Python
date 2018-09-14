@@ -1,16 +1,16 @@
 #!/usr/bin/python3
-
+# coding=utf-8
 import pymysql
 
 # 打开数据库连接
-db = pymysql.connect("192.168.0.235", "root", "root", "trade")
+db = pymysql.connect(host='localhost',port=3306,user='root',passwd='123',db='test',charset='utf8')
 
 # 使用 cursor() 方法创建一个游标对象 cursor
 cursor = db.cursor()
 
 # 使用 execute()  方法执行 SQL 查询
 
-cursor.execute("SELECT UID,USER_NAME FROM coin_userbase")
+cursor.execute("SELECT * FROM source")
 # fetchall(self):接收全部的返回结果行.
 # fetchmany(self, size=None):接收size条返回结果行.如果size的值大于返回的结果行的数量,则会返回cursor.arraysize条数据.
 # fetchone(self):返回一条结果行.

@@ -2,6 +2,7 @@
 from calculator import *
 import unittest
 import HTMLTestRunner
+from Email import *
 class TestMath(unittest.TestCase):
     def setUp(self):
         print("start")
@@ -17,8 +18,7 @@ class TestMath(unittest.TestCase):
         self.assertEqual(multi(2, 3), 6)
 
     def test_divide(self):
-        self.assertEqual(divide(12, 3), 4)
-    def tearDown(self):
+        self.assertEqual(divide(12, 3), 2)
         print("end")
 
 
@@ -35,4 +35,5 @@ if __name__ == "Test_Math":
     with open(filename, 'wb') as fp:
         runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title=u'测试报告', description=u'用例执行详情：')
         runner.run(suite)
+    send_email()
     # unittest.runner()
