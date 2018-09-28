@@ -7,6 +7,7 @@
 r+ 可读写文件(可读；可写；可追加)
 w+ 写读
  a+ 同a'''
+import csv
 def read():
     fin = open("D:\\autodate\\yonghu.txt", "r")
     ct = fin.read()
@@ -25,4 +26,23 @@ def html():
     fin.close()
     print(ht)
 
-html()
+def txt():
+    fp = open('D:\\autodate\\yonghu.txt','r')
+    lines = fp.readlines()
+    fp.close()
+    for line in lines:
+        username = line.split(',')[0]
+        print username
+        password = line.split(',')[1]
+        print password
+def csv():
+
+    date =open('D:\\autodate\\yonghu.csv', 'r')
+    lines=date.readlines()
+    date.close()
+    for line in lines:
+        username = line.split(',')[0]
+        print username
+        password = line.split(',')[1]
+        print password
+csv()

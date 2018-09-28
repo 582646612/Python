@@ -14,6 +14,9 @@ class TestMath(unittest.TestCase):
     def test_minus(self):
         self.assertEqual(minus(15,3), 12)
 
+    # @unittest.skip("直接跳过测试")
+    # @unittest.skipIf(4 > 3, "当条件为True时跳过测试")
+    # @unittest.skipUnless(3 > 2, "当条件为True时执行测试")
     def test_multi(self):
         self.assertEqual(multi(2, 3), 6)
 
