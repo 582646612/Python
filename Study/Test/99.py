@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 
-# Filename : test.py
+
 # author by : www.runoob.com
 
 # 九九乘法表

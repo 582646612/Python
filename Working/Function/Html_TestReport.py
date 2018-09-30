@@ -2,8 +2,8 @@
 import unittest
 from HTMLTestRunner import HTMLTestRunner
 import time
-test_dir='./test'
-discover=unittest.defaultTestLoader.discover(test_dir,pattern="test.py")
+test_dir='./testss'
+discover=unittest.defaultTestLoader.discover(test_dir,pattern="testsss.py")
 
 if __name__=='__main__':
     report_dir='./Report'
