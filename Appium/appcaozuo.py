@@ -3,15 +3,15 @@ from appium import webdriver
 import time
 import os
 
-driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub')
 
-def dingwei():
+
+def dingwei(driver):
     driver.find_element_by_xpath("//*[@class='android.widget.FrameLayout'][5]").click()
     driver.find_element_by_xpath("//android.widget.Button[contains(@text,'7')]").click();
     driver.find_element_by_xpath("//android.widget.Button[contains(@content-desc,'times')]").click();
     driver.find_element_by_xpath("//android.widget.Button[contains(@text,'7')]").click();
     driver.find_element_by_xpath("//android.widget.Button[contains(@content-desc,'equals')]").click()
-def huadong():
+def huadong(driver):
     print(driver.get_window_size())
     x = driver.get_window_size()['width']   # 获取屏幕的高
     y = driver.get_window_size()['height'] # 获取屏幕宽
@@ -24,10 +24,10 @@ def huadong():
     time.sleep(4)
     driver.swipe(1 / 2 * x, 1 / 7 * y, 1 / 2 * x, 6 / 7 * y, 200)# 向上滑动
 
-def caozuo():
+def caozuo(driver):
     driver.tap([(918, 413), (1026, 521)], 100)
 
-def sign():
+def sign(driver):
     img_folder = os.path.abspath(os.path.join(os.path.dirname(__file__), "..")) + '//screenshots//'
     times =time.strftime('%Y%m%d%H%M', time.localtime(time.time()))
     screen_save_path = img_folder + time + '.png'

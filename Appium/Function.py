@@ -50,3 +50,26 @@ def location(driver,locat): #by.name
         sleep(1)
     # WebDriverWait(driver, 10).until(expected_conditions.presence_of_element_located((By.NAME,"日期和时间")))
     driver.find_element_by_name(locat).click()
+def Scroll_down(driver):
+    screen = driver.get_window_size()
+    width = screen["width"]
+    height = screen["height"]
+    driver.swipe(width / 2, height / 7 * 4, width / 2, height / 7 * 6, 200)
+
+
+def Scroll_up(driver):
+    screen = driver.get_window_size()
+    width = screen["width"]
+    height = screen["height"]
+    driver.swipe(width / 2, height / 7 * 6, width / 2, height / 7 * 4, 200)
+
+def send_message(driver):
+    driver.tap([(150, 943), (300, 1024)], 100)
+    sleep(1)
+    driver.find_element_by_xpath("//*[@class='android.widget.LinearLayout'][5]").click()
+    sleep(1)
+    driver.find_element_by_id("com.tencent.mm:id/ap1").click()
+    sleep(1)
+    driver.find_element_by_id("com.tencent.mm:id/ac7").send_keys("helloword")
+    driver.find_element_by_id("com.tencent.mm:id/acd").click()
+    driver.back()

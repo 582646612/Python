@@ -4,7 +4,7 @@ from time import sleep
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.common.by import By
-from  Weixin import send_message
+from  Function import send_message
 desired_caps = {}
 
 desired_caps['platformName'] ='Android'
