@@ -35,7 +35,7 @@ sleep(2)
 #         driver.back()
 #     except Exception as e:
 #         print e
-location(driver,"ಕನ್ನಡ")
+location(driver,"汉语")
 sleep(3)
 
 driver.quit()

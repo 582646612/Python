@@ -10,9 +10,10 @@ headers = {'User-Agent': user_agent}
 
 request = urllib2.Request(url, headers=headers)
 response = urllib2.urlopen(request)
-content = response.read().decode('utf-8')
-
-soup=BeautifulSoup(content)
-item=soup.find("span")
-for x in item:
-    print x
+content = response.read()
+# print content
+soup = BeautifulSoup(content, "html.parser", from_encoding="utf-8")
+links = soup.find_all('span')
+print "所有的链接"
+for link in links:
+    print link.get_text()

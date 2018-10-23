@@ -2,7 +2,7 @@
 
 import urllib2
 
-req = urllib2.Request('http://blog.csdn.net/cqcre')
+req = urllib2.Request('http://blog.csdn.net/cqe')
 try:
     urllib2.urlopen(req)
 except urllib2.URLError, e:

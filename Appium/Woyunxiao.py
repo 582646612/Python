@@ -1,19 +1,43 @@
 #coding:utf-8
 from appium import webdriver
 from Function import Z_unlock,L_unlock
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions
+from selenium.webdriver.common.by import By
 import time
+# os.system("adb connect 127.0.0.1:7555")
 desired_caps = {}
 desired_caps['platformName'] = 'Android'
-desired_caps['platformVersion'] = '4.0'
-desired_caps['deviceName'] = '127.0.0.1:4555'
+desired_caps['platformVersion'] = '6.0'
+desired_caps['deviceName'] = '127.0.0.1:6555'
 desired_caps['appPackage'] = 'com.asiainfo.wcs'
 desired_caps['appActivity'] = '.ui.splash.SplashActivity'
 desired_caps['unicodeKeyboard'] = 'true'
 desired_caps['resetKeyboard'] = 'True'
 driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
-time.sleep(2)
-print(driver.get_window_size())  # 获取屏幕的高
-Z_unlock(driver)
-L_unlock(driver)
-time.sleep(4)
+try:
+    WebDriverWait(driver, 10).until(expected_conditions.presence_of_element_located((By.ID,"com.asiainfo.wcs:id/lockPatternView")))
+    # Z_unlock(driver)
+    L_unlock(driver)
+except:
+    driver.find_element_by_id("com.asiainfo.wcs:id/iv_cbss_login").click()
+    time.sleep(1)
+    driver.find_element_by_id("com.asiainfo.wcs:id/login_account_input_edit").send_keys("KMCSGH000051")
+    driver.find_element_by_id("com.asiainfo.wcs:id/login_psw_input_edit").send_keys("Yy198623..")
+    driver.find_element_by_id("com.asiainfo.wcs:id/login_vercode_input_edit").send_keys("123")
+    driver.find_element_by_id("com.asiainfo.wcs:id/login_btn").click()
+WebDriverWait(driver, 10).until(expected_conditions.presence_of_element_located((By.NAME,"kaihu")))
+driver.find_element_by_name("kaihu").click()
+time.sleep(3)
+print driver.get_window_size()
+
 driver.quit()
+
+# if not self.driver.find_element_by_name("登录"):
+# #滑动界面
+# else:
+# try:
+#     if(xxxx.isDisplay);
+#
+# catch:
+#     xxxxx

@@ -1,3 +1,4 @@
+#coding:utf-8
 # for i in range(1,10):
 #
 #         spath="//*[@class='android.widget.LinearLayout'][%d]"%i
@@ -14,3 +15,4 @@ import os
 # adb shell -> su->cd /data/data - > ls - l
 #启动
 os.system("adb shell am start -n com.android.settings/.Settings")
+os.system("adb shell am start -n com.android.browser/.BrowserActivity")
