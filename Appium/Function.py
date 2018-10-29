@@ -1,8 +1,14 @@
 #coding:utf-8
 from time import sleep
+import yaml
 from appium import webdriver
 from appium.webdriver.common.touch_action import TouchAction
 from appium.webdriver.common.multi_action import MultiAction
+
+def Open_app(name):
+    files = open("date.yaml", 'r').read()
+    desired_caps = yaml.load(files)[name]
+    return desired_caps
 
 def Z_unlock(driver):
     jiu = 'com.asiainfo.wcs:id/lockPatternView'
@@ -95,12 +101,11 @@ def Scroll_up(driver):
     driver.swipe(width / 2, height / 7 * 6, width / 2, height / 7 * 4, 200)
 
 def send_message(driver):
-    driver.tap([(150, 943), (300, 1024)], 100)
     sleep(1)
-    driver.find_element_by_xpath("//*[@class='android.widget.LinearLayout'][5]").click()
+    driver.find_element_by_name("…").click()
     sleep(1)
-    driver.find_element_by_id("com.tencent.mm:id/ap1").click()
+    driver.find_element_by_name("发消息").click()
     sleep(1)
-    driver.find_element_by_id("com.tencent.mm:id/ac7").send_keys("helloword")
-    driver.find_element_by_id("com.tencent.mm:id/acd").click()
+    driver.find_element_by_id("com.tencent.mm:id/aie").send_keys("hello word")
+    driver.find_element_by_name("发送").click()
     driver.back()

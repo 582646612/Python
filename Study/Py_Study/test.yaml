@@ -1,0 +1,31 @@
+#coding:utf-8
+# YAML表示散列表
+name: junxi
+age: 18
+# YAMLmap表示嵌套map
+websites:
+ YAML: yaml.org
+ Ruby: ruby-lang.org
+ Python: python.org
+ Perl: use.perl.org
+# YAML表示数组
+list:
+ - a
+ - b
+ - 12
+#map嵌套list
+languages:
+ - Ruby
+ - Perl
+ - Python
+ - c
+# YAML表示list嵌套list
+# 方法3
+List:
+ -
+  - Ruby
+  - Perl
+  - Python
+ -
+  [c,c++,java]
+# YAML表示list嵌套map

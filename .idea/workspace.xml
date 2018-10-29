@@ -25,7 +25,7 @@
     <session id="1885608261">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="42" />
+          <entry key="project.closed" value="46" />
           <entry key="project.open.time.111" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.37" value="1" />
@@ -34,6 +34,7 @@
           <entry key="project.open.time.41" value="4" />
           <entry key="project.open.time.42" value="2" />
           <entry key="project.open.time.43" value="2" />
+          <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.45" value="3" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.48" value="3" />
@@ -42,155 +43,155 @@
           <entry key="project.open.time.51" value="4" />
           <entry key="project.open.time.52" value="2" />
           <entry key="project.open.time.53" value="2" />
+          <entry key="project.open.time.55" value="1" />
+          <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.59" value="1" />
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.66" value="1" />
           <entry key="project.open.time.69" value="1" />
           <entry key="project.open.time.71" value="1" />
-          <entry key="project.open.time.73" value="1" />
-          <entry key="project.open.time.76" value="1" />
+          <entry key="project.open.time.73" value="2" />
+          <entry key="project.open.time.76" value="2" />
           <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.80" value="2" />
           <entry key="project.open.time.82" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="44" />
+          <entry key="project.opened" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="config" value="1" />
-          <entry key="html" value="5" />
-          <entry key="ini" value="3" />
+          <entry key="html" value="6" />
+          <entry key="ini" value="5" />
           <entry key="jpg" value="2" />
           <entry key="log" value="2" />
           <entry key="md" value="1" />
           <entry key="png" value="1" />
-          <entry key="py" value="410" />
+          <entry key="py" value="495" />
           <entry key="txt" value="8" />
+          <entry key="yaml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="5" />
+          <entry key="HTML" value="6" />
           <entry key="Image" value="3" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="14" />
-          <entry key="Python" value="410" />
+          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="Python" value="495" />
+          <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="154" />
+          <entry key="dummy" value="163" />
           <entry key="ini" value="2" />
-          <entry key="py" value="10282" />
+          <entry key="py" value="11072" />
+          <entry key="yaml" value="314" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="156" />
-          <entry key="Python" value="10281" />
+          <entry key="PLAIN_TEXT" value="165" />
+          <entry key="Python" value="11071" />
           <entry key="RegExp" value="1" />
+          <entry key="YAML" value="314" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Appium/baidu_browser.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57">
-              <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Appium/auto_test_ecloud.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-              <folding>
-                <element signature="e#14#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Appium/Wechat.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Appium/adb_shell.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://D:/Unittest/testsuits/test_nba_news.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Appium/Function.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Unittest/testsuits/baidu_search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="71" column="20" lean-forward="true" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+            <state relative-caret-position="-437">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
               <folding>
-                <element signature="e#14#36#0" expanded="true" />
-                <marker date="1540284543918" expanded="true" signature="2201:2202" ph="..." />
-                <marker date="1540284543918" expanded="true" signature="2591:2710" ph="..." />
+                <element signature="e#15#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/site-packages/appium/webdriver/common/touch_action.py">
+        <entry file="file://D:/Unittest/testsuits/test_get_pagetitle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="399">
+              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Appium/123.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Appium/Woyunxiao.py">
+        <entry file="file://D:/Unittest/framework/base_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="518">
+              <caret line="147" column="12" selection-start-line="147" selection-start-column="12" selection-end-line="147" selection-end-column="12" />
               <folding>
-                <element signature="e#14#42#0" expanded="true" />
+                <element signature="e#15#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/support/wait.py">
+        <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-762174762/__builtin__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
+            <state relative-caret-position="-7686">
+              <caret line="4309" column="8" selection-start-line="4309" selection-start-column="8" selection-end-line="4309" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Appium/Setting.py">
+        <entry file="file://D:/Unittest/pageobjects/baidu_homepage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="247">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Unittest/pageobjects/baidu_news_home.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Unittest/pageobjects/baidu_sport_home.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Unittest/framework/logger.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-91">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding>
-                <element signature="e#14#42#0" expanded="true" />
+                <element signature="e#17#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Unittest/framework/browser_engine.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-90">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="19" />
+              <folding>
+                <element signature="e#23#42#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -220,6 +221,7 @@
       <find>None,</find>
       <find> </find>
       <find>wait(500)</find>
+      <find>=</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -231,6 +233,7 @@
       <replace>move_to</replace>
       <replace>4</replace>
       <replace>wait(200)</replace>
+      <replace>:</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -239,19 +242,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Unittest/framework/browser_engine.py" />
-        <option value="$PROJECT_DIR$/Unittest/testsuits/baidu_search.py" />
-        <option value="D:/Unittest/config/config.ini" />
-        <option value="D:/Unittest/logs/logger.py" />
-        <option value="D:/Unittest/framework/browser_engine.py" />
-        <option value="D:/Unittest/framework/base_page.py" />
-        <option value="D:/Unittest/pageobjects/baidu_homepage.py" />
         <option value="D:/Unittest/pageobjects/news.sport_home.py" />
         <option value="D:/Unittest/pageobjects/baidu_news_home.py" />
         <option value="D:/Unittest/testsuits/__init__.py" />
         <option value="$PROJECT_DIR$/Working/Unittest/Test_Math.py" />
         <option value="D:/Unittest/testsuits/test_nba_news.py" />
-        <option value="D:/Unittest/testsuits/baidu_search.py" />
         <option value="D:/Unittest/testsuits/test_get_pagetitle.py" />
         <option value="D:/Unittest/testsuits/TestRunner.py" />
         <option value="$PROJECT_DIR$/Study/Request/Post.py" />
@@ -266,7 +261,6 @@
         <option value="$PROJECT_DIR$/Appium/ddt.py" />
         <option value="$PROJECT_DIR$/Appium/testdemo.py" />
         <option value="$PROJECT_DIR$/Appium/Lunch time.py" />
-        <option value="$PROJECT_DIR$/Appium/test.py" />
         <option value="$PROJECT_DIR$/Working/Function/Html_TestReport.py" />
         <option value="$PROJECT_DIR$/Study/Test/99.py" />
         <option value="$PROJECT_DIR$/Reptile/Reptile_photo.py" />
@@ -281,15 +275,24 @@
         <option value="$PROJECT_DIR$/Reptile/Hearder.py" />
         <option value="$PROJECT_DIR$/Reptile/Post.py" />
         <option value="$PROJECT_DIR$/Reptile/Reptile_xsbk.py" />
-        <option value="$PROJECT_DIR$/Reptile/test.py" />
         <option value="$PROJECT_DIR$/Reptile/Baidubk.py" />
         <option value="$PROJECT_DIR$/Reptile/Js.py" />
-        <option value="$PROJECT_DIR$/Appium/Setting.py" />
-        <option value="$PROJECT_DIR$/Appium/adb_shell.py" />
+        <option value="$PROJECT_DIR$/Appium/baidu_browser.py" />
+        <option value="$PROJECT_DIR$/Reptile/Scrapy.py" />
+        <option value="$PROJECT_DIR$/Reptile/test.py" />
+        <option value="$PROJECT_DIR$/Study/Py_Study/Test.py" />
+        <option value="$PROJECT_DIR$/Study/Py_Study/test.yaml" />
+        <option value="D:/Unittest/config/test.py" />
+        <option value="D:/Unittest/testsuits/baidu_search.py" />
+        <option value="$PROJECT_DIR$/Pycharm/Webdriver/Switch/Scroll.py" />
+        <option value="$PROJECT_DIR$/Appium/date.yaml" />
+        <option value="$PROJECT_DIR$/Appium/Function.py" />
         <option value="$PROJECT_DIR$/Appium/Woyunxiao.py" />
         <option value="$PROJECT_DIR$/Appium/Wechat.py" />
-        <option value="$PROJECT_DIR$/Appium/baidu_browser.py" />
-        <option value="$PROJECT_DIR$/Appium/Function.py" />
+        <option value="$PROJECT_DIR$/Appium/Setting.py" />
+        <option value="$PROJECT_DIR$/Study/Py_Study/Random.py" />
+        <option value="$PROJECT_DIR$/Appium/test.py" />
+        <option value="$PROJECT_DIR$/Appium/adb_shell.py" />
       </list>
     </option>
   </component>
@@ -303,8 +306,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="49" />
-    <option name="y" value="47" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1269" />
     <option name="height" value="648" />
   </component>
@@ -334,12 +337,32 @@
           <expand>
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="Unittest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python" type="462c0819:PsiDirectoryNode" />
-              <item name="Appium" type="462c0819:PsiDirectoryNode" />
+              <item name="Unittest" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Unittest" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Unittest" type="462c0819:PsiDirectoryNode" />
+              <item name="pageobjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Unittest" type="462c0819:PsiDirectoryNode" />
+              <item name="test_report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Unittest" type="462c0819:PsiDirectoryNode" />
+              <item name="testsuits" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -379,28 +402,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.baidu_browser">
-    <configuration name="Js" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Reptile" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Reptile/Js.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.adb_shell">
     <configuration name="Setting" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -414,6 +416,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Appium/Setting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Wechat" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Appium" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Appium/Wechat.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -464,7 +487,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="baidu_browser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -476,7 +499,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Appium/baidu_browser.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Appium/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -486,19 +509,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Js" />
       <item itemvalue="Python.Woyunxiao" />
-      <item itemvalue="Python.baidu_browser" />
-      <item itemvalue="Python.Setting" />
+      <item itemvalue="Python.Wechat" />
       <item itemvalue="Python.adb_shell" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.Setting" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.baidu_browser" />
-        <item itemvalue="Python.Woyunxiao" />
         <item itemvalue="Python.adb_shell" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.Woyunxiao" />
+        <item itemvalue="Python.Wechat" />
         <item itemvalue="Python.Setting" />
-        <item itemvalue="Python.Js" />
       </list>
     </recent_temporary>
   </component>
@@ -516,21 +539,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_baidu_search_py - 2018.09.15 at 17h 55m 18s.xml">
-      <configuration name="Unittests in baidu_search.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_nba_news_py - 2018.09.15 at 18h 11m 19s.xml">
-      <configuration name="Unittests in test_nba_news.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_nba_news_py - 2018.09.15 at 18h 11m 49s.xml">
-      <configuration name="Unittests in test_nba_news.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_nba_news_py - 2018.09.15 at 18h 12m 47s.xml">
-      <configuration name="Unittests in test_nba_news.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_nba_news_py - 2018.09.15 at 18h 16m 48s.xml">
-      <configuration name="Unittests in test_nba_news.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_NativeScript_MyTestCase - 2018.09.27 at 11h 51m 35s.xml">
       <configuration name="pytest for NativeScript.MyTestCase" configurationId="tests" />
     </history-entry>
@@ -546,6 +554,21 @@
     <history-entry file="pytest_for_NativeScript_MyTestCase - 2018.09.27 at 20h 16m 29s.xml">
       <configuration name="pytest for NativeScript.MyTestCase" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_test_get_pagetitle_py - 2018.10.26 at 16h 35m 39s.xml">
+      <configuration name="Unittests in test_get_pagetitle.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_nba_news_ViewNBANews - 2018.10.26 at 16h 36m 40s.xml">
+      <configuration name="Unittests for test_nba_news.ViewNBANews" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_baidu_search_py - 2018.10.26 at 16h 37m 38s.xml">
+      <configuration name="Unittests in baidu_search.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_baidu_search_py - 2018.10.26 at 16h 40m 50s.xml">
+      <configuration name="Unittests in baidu_search.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_nba_news_ViewNBANews_test_view_nba_views - 2018.10.26 at 16h 49m 56s.xml">
+      <configuration name="Unittests for test_nba_news.ViewNBANews.test_view_nba_views" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -558,13 +581,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976415" visible="true" weight="0.14732143" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976415" visible="true" weight="0.19270833" />
       <window_info id="Structure" order="1" sideWeight="0.5023585" side_tool="true" weight="0.15997024" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32815534" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2569558" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2569558" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45825243" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -574,38 +598,14 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" weight="0.32988167" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32894737" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32815534" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24979322" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info anchor="right" id="Data View" order="4" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976415" visible="true" weight="0.16084485" />
-      <window_info id="Structure" order="1" sideWeight="0.5023585" side_tool="true" weight="0.15997024" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3631068" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.45825243" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" weight="0.32988167" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32894737" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Data View" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -620,339 +620,352 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Appium/Setting.py</url>
-          <line>1</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Appium/Woyunxiao.py</url>
-          <line>28</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Working/Function/Cookie.py">
+    <entry file="file://$PROJECT_DIR$/Appium/123.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reptile/Scrapy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reptile/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/yaml/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/Memery/Shuzu.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/Memery/Tuple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/Memery/Character string.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/Memery/Dictionary.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Working/Unicom/lylq.py">
+    <entry file="file://C:/Python27/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="28" column="154" selection-start-line="28" selection-start-column="140" selection-end-line="28" selection-end-column="154" />
+        <state relative-caret-position="5985">
+          <caret line="328" selection-start-line="328" selection-end-line="328" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+    <entry file="file://C:/Python27/Lib/unittest/suite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4579">
-          <caret line="241" selection-start-line="241" selection-end-line="241" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/json/encoder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5111">
-          <caret line="269" selection-start-line="269" selection-end-line="269" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/appium/webdriver/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Working/Unicom/Hklq.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Working/Function/Html_TestReport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/Test/99.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="2698">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Working/KuanDai/kdyj.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Study/Test/Input.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/Test/Ifelse.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/Test/Canvas.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/Test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Working/KuanDai/kddd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="18" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spider-master/src/sqlhand.py" />
-    <entry file="file://$PROJECT_DIR$/spider-master/src/toolhand.py" />
-    <entry file="file://$PROJECT_DIR$/spider-master/src/httphand.py" />
-    <entry file="file://$PROJECT_DIR$/spider-master/src/main.py" />
-    <entry file="file://$PROJECT_DIR$/spider-master/src/log.txt" />
-    <entry file="file://C:/Python27/Lib/site-packages/BeautifulSoup.py" />
-    <entry file="file://$PROJECT_DIR$/Working/Function/Execution_Order.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Study/Test/zhengze.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1824">
-          <caret line="96" column="43" selection-start-line="96" selection-start-column="43" selection-end-line="96" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Appium/appium_ecloud.py" />
-    <entry file="file://$PROJECT_DIR$/Reptile/URLError.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/urllib2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="153" selection-start-line="153" selection-end-line="153" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/encodings/utf_8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reptile/Reptile_photo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reptile/Url_js.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="10" column="87" selection-start-line="10" selection-start-column="87" selection-end-line="10" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/bs4/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="178" selection-start-line="178" selection-end-line="178" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reptile/Hearder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reptile/Reptile_xsbk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="17" selection-start-line="17" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/bs4/element.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="1883" selection-start-line="1883" selection-end-line="1883" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reptile/Beautifulsoup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="31" column="39" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reptile/Baidubk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reptile/Get_url.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/requests/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2052">
-          <caret line="111" selection-start-line="111" selection-end-line="111" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/requests/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3629">
-          <caret line="193" selection-start-line="193" selection-end-line="193" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reptile/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reptile/cookie.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reptile/Cookie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Reptile/Js.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="3" selection-start-line="3" selection-start-column="2" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Appium/appcaozuo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="-153">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#24#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/appium/webdriver/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
+        <state relative-caret-position="636">
           <caret line="96" selection-start-line="96" selection-end-line="96" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+    <entry file="file://$PROJECT_DIR$/Pycharm/Webdriver/Switch/Scroll.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2660">
-          <caret line="155" selection-start-line="155" selection-end-line="155" />
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Appium/auto_test_ecloud.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
-          <folding>
-            <element signature="e#14#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Appium/adb_shell.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Appium/123.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/support/wait.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
+        <state relative-caret-position="294">
           <caret line="79" selection-start-line="79" selection-end-line="79" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/appium/webdriver/common/touch_action.py">
+    <entry file="file://C:/Python27/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="426">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Appium/appcaozuo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/Py_Study/Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/Py_Study/test.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-148">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Appium/Woyunxiao.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="140">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="34" />
           <folding>
             <element signature="e#14#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Appium/date.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/Test/Loop.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Working/Unicom/kblq.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Study/Py_Study/Random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="26" lean-forward="true" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Appium/baidu_browser.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Appium/Setting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="209">
+          <caret line="11" column="8" lean-forward="true" selection-end-line="23" />
           <folding>
             <element signature="e#14#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Appium/Wechat.py">
+    <entry file="file://$PROJECT_DIR$/Appium/auto_test_ecloud.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="43" />
+        <state relative-caret-position="-319">
+          <caret line="30" column="48" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="48" />
+          <folding>
+            <element signature="e#14#27#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Appium/baidu_browser.py">
+    <entry file="file://$PROJECT_DIR$/Appium/Wechat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+        <state relative-caret-position="-604">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding>
+            <element signature="e#14#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Unittest/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Unittest/testsuits/TestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285" />
+      </provider>
+    </entry>
+    <entry file="file://D:/Unittest/test_report/2018-09-17-14_11_23HTMLtemplate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7325" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Appium/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Appium/adb_shell.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#142#172#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Appium/Function.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="71" column="20" lean-forward="true" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+        <state relative-caret-position="178">
+          <caret line="100" column="5" selection-start-line="100" selection-start-column="5" selection-end-line="100" selection-end-column="75" />
           <folding>
             <element signature="e#14#36#0" expanded="true" />
-            <marker date="1540284543918" expanded="true" signature="2201:2202" ph="..." />
-            <marker date="1540284543918" expanded="true" signature="2591:2710" ph="..." />
+            <marker date="1540796250075" expanded="true" signature="220:330" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Unittest/config/config.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Unittest/config/Config_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Unittest/framework/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Unittest/framework/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-91">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="e#17#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-762174762/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7686">
+          <caret line="4309" column="8" selection-start-line="4309" selection-start-column="8" selection-end-line="4309" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Unittest/pageobjects/baidu_news_home.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Unittest/pageobjects/baidu_sport_home.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Unittest/framework/browser_engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="e#23#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Unittest/framework/base_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="147" column="12" selection-start-line="147" selection-start-column="12" selection-end-line="147" selection-end-column="12" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Unittest/pageobjects/baidu_homepage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Unittest/testsuits/baidu_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-437">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Unittest/testsuits/test_get_pagetitle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Unittest/testsuits/test_nba_news.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
         </state>
       </provider>
     </entry>
