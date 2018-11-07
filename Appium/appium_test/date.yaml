@@ -1,0 +1,29 @@
+#coding:utf-8
+#78a88b73
+woyunxiao :
+   platformName : Android
+   platformVersion : 6.0
+   dunicodeKeyboard : true
+   resetKeyboard : True
+   noReset : True
+   deviceName : 78a88b73
+   appPackage : com.asiainfo.wcs
+   appActivity : .ui.splash.SplashActivity
+
+wechat:
+  platformName: Android
+  platformVersion: 6.0
+  dunicodeKeyboard: true
+  resetKeyboard: True
+  deviceName: 78a88b73
+  appPackage : com.tencent.mm
+  appActivity : .ui.LauncherUI
+  
+Setting:
+  platformName: Android
+  platformVersion: 6.0
+  dunicodeKeyboard: true
+  resetKeyboard: True
+  deviceName: 127.0.0.1:7555
+  appPackage : com.android.settings
+  appActivity : .Settings
