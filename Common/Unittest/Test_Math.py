@@ -34,7 +34,7 @@ if __name__ == "Test_Math":
     suite.addTest(TestMath('test_minus'))
     suite.addTest(TestMath( 'test_multi'))
     suite.addTest(TestMath('test_divide'))
-    filename = 'D:\\python\\Working\\Unittest\\HtmlReport.html'
+    filename = 'D:\\python\\Working\\Webdriver\\HtmlReport.html'
     with open(filename, 'wb') as fp:
         runner = HTMLTestRunner.HTMLTestRunner(stream=fp, title=u'测试报告', description=u'用例执行详情：')
         runner.run(suite)

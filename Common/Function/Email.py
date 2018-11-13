@@ -50,7 +50,7 @@ def send_email():
     # msg.attach(image)
 
     # 发送附件
-    att1 = MIMEText(open('D:\\python\\Working\\Unittest\\HtmlReport.html', 'rb').read(), 'base64', 'gb2312')
+    att1 = MIMEText(open('D:\\python\\Working\\Webdriver\\HtmlReport.html', 'rb').read(), 'base64', 'gb2312')
     att1["Content-Type"] = 'application/octet-stream'
     att1["Content-Disposition"] = 'attachment; filename="HtmlReport.html"' #这里的filename可以任意写，写什么名字，邮件中显示什么名字
     msg.attach(att1)

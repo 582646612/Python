@@ -3,7 +3,7 @@
 #print(a,b,c)
 print("-----求平均值，可输入任意多个数-------")
 lst = [] #定义一个空列表
-str = raw_input("请输入数值，用空格隔开:")
+str = input("请输入数值，用空格隔开:")
 lst1 = str.split(" ")#lst1用来存储输入的字符串，用空格分割
 i = 0
 while i <= len(lst1)+1:
