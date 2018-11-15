@@ -8,12 +8,12 @@ def talk(content,loop):
 
 def write(content, loop):
     for i in range(loop):
-        print("Start write:%s %s" % (content, ctime()))
+        print("Start writ:%s %s" % (content, ctime()))
         sleep(3)
 process=[]
-t1=multiprocessing.Process(target=talk,args=('Hello 51zxw!',2))
+t1=multiprocessing.Process(target=talk,args=('Life is long!',2))
 process.append(t1)
-t2=multiprocessing.Process(target=write,args=('Life is short,You need Python!',2))
+t2=multiprocessing.Process(target=write,args=('Life is short',2))
 process.append(t2)
 if __name__=='__main__':
     for t in process:

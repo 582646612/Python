@@ -1,11 +1,23 @@
 #coding=utf-8
 import time
 import calendar
+import datetime
 def get_time():
     dt = time.strftime("%Y-%m-%d_%H:%M:%S", time.localtime())
     return dt
+
+
+
+def getYesterday():
+    today = datetime.date.today()
+    oneday = datetime.timedelta(days=1)
+    yesterday = today - oneday
+    return yesterday
+
+
 if __name__ == '__main__':
     print(get_time())
+    print(getYesterday())
     # cal = calendar.month(2016, 1)
     # print ("以下输出2016年1月份的日历:")
     # print (cal)

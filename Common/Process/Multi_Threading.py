@@ -6,14 +6,14 @@ def talk(content,loop):
          print("Start talk:%s %s" %(content,ctime()))
          sleep(2)
 
-def write(content, loop):
+def writ(content, loop):
     for i in range(loop):
-        print("Start write:%s %s" % (content, ctime()))
+        print("Start writ:%s %s" % (content, ctime()))
         sleep(3)
 threads=[]
-t1=threading.Thread(target=talk,args=('Hello 51zxw!',2))
+t1=threading.Thread(target=talk,args=('Life is long!',2))
 threads.append(t1)
-t2=threading.Thread(target=write,args=('Life is short,You need Python!',2))
+t2=threading.Thread(target=writ,args=('Life is short',2))
 threads.append(t2)
 if __name__=='__main__':
     for t in threads:
