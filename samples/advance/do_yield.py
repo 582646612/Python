@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 
 def each_ascii(s):
+
+
     for ch in s:
         yield ord(ch)
     return '%s chars' % len(s)

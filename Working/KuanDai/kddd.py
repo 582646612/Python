@@ -5,7 +5,7 @@ import unittest, time
 
 class UntitledTestCase(unittest.TestCase):
     def setUp(self):
-        self.driver = webdriver.Firefox()
+        self.driver = webdriver.Chrome()
         self.driver.get("http://135.64.22.33:18082/ordercenter/loginController/login")
         self.driver.implicitly_wait(30)
         self.driver.find_element_by_id("usernameInput").send_keys("admin")

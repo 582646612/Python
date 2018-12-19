@@ -3,7 +3,7 @@
 import re
 
 from bs4 import BeautifulSoup
-
+# pip BeautifulSoup4
 html_doc = """
 <html><head><title>The Dormouse's story</title></head>
 <body>
@@ -19,18 +19,18 @@ and they lived at the bottom of a well.</p>
 soup = BeautifulSoup(html_doc, "html.parser", from_encoding="utf-8")
 # 获取所有的链接
 links = soup.find_all('a')
-print "所有的链接"
+print ("所有的链接")
 for link in links:
-    print link.name, link['href'], link.get_text()
+    print ()
 
-print "获取特定的URL地址"
+print ()
 link_node = soup.find('a', href="http://example.com/elsie")
-print link_node.name, link_node['href'], link_node['class'], link_node.get_text()
+print (link_node.name, link_node['href'], link_node['class'], link_node.get_text())
 
-print "正则表达式匹配"
+print ("正则表达式匹配")
 link_node = soup.find('a', href=re.compile(r"ti"))
-print link_node.name, link_node['href'], link_node['class'], link_node.get_text()
+print (link_node.name, link_node['href'], link_node['class'], link_node.get_text())
 
-print "获取P段落的文字"
+print ("获取P段落的文字")
 p_node = soup.find('p', class_='story')
-print p_node.name, p_node['class'], p_node.get_text()
+print (p_node.name, p_node['class'], p_node.get_text())

@@ -1,40 +1,23 @@
-import rsa
+#coding:utf-8
+class Goods(object):
 
-# 生成密钥
-(pubkey, privkey) = rsa.newkeys(1024)
+    def __init__(self):
+        # 原价
+        self.original_price = 100
+        # 折扣
+        self.discount = 0.8
 
-# 保存密钥
+    def get_price(self):
+        # 实际价格 = 原价 * 折扣
+        new_price = self.original_price * self.discount
+        return new_price
 
-x=pubkey.save_pkcs1().decode()
+    def set_price(self, value):
+        self.original_price = value
 
-y=privkey.save_pkcs1().decode()
+    def del_price(self, value):
+        del self.original_price
 
+    PRICE = property(get_price, set_price, del_price, '价格属性描述...')
 
-print(x)
-print(y)
-# 导入密钥
-pubkey = rsa.PublicKey.load_pkcs1(x.encode())
-
-
-privkey = rsa.PrivateKey.load_pkcs1(y.encode())
-
-# 明文
-message = 'hello'
-
-# 公钥加密
-crypto = rsa.encrypt(message.encode(), pubkey)
-
-# 私钥解密
-message = rsa.decrypt(crypto, privkey).decode()
-print(message)
-
-print(crypto)
-
-
-# 私钥签名
-signature = rsa.sign(message.encode(), privkey, 'SHA-1')
-
-# 公钥验证
-rsa.verify(message.encode(), signature, pubkey)
-
-print(signature)
+print(Goods.__doc__)

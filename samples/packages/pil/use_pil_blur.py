@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from PIL import Image, ImageFilter
-
+# pip install pillow
 # 打开一个jpg图像文件，注意是当前路径:
 im = Image.open('test.jpg')
 # 应用模糊滤镜:
