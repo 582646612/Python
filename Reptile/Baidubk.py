@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
-from urllib import urlopen
+import urllib
 import re
-import random
+import requests
 
 base_url = "https://baike.baidu.com"
 his = ["/item/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB/5162711"]
@@ -23,12 +23,12 @@ his = ["/item/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB/5162711"]
 #         his.pop()
 #
 url = base_url + his[-1]
-print url
-html = urlopen(url).read().decode('utf-8')
+print (url)
+html = urllib.request.urlopen(url).read().decode('utf-8')
 # print html
 soup = BeautifulSoup(html, features='lxml')
 sub_urls = soup.find_all("a", {"target": "_blank", "href": re.compile("/item/(%.{2})+/\d+$")})
-print sub_urls[1]
+print (sub_urls[1])
 
 # for link in sub_urls:
 #     print link.get_text(),link["href"]

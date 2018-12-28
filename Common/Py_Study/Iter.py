@@ -5,13 +5,14 @@ it = iter(list)  # 创建迭代器对象
 print(next(it))
 
 
-class MyNumbers:
+class MyNumbers():
+
     def __iter__(self):
         self.a = 1
         return self
 
     def __next__(self):
-        if self.a <= 20:
+        if self.a <= 5:
             x = self.a
             self.a += 1
             return x

@@ -80,3 +80,242 @@ Unable to read VR Path Registry from C:\Users\cs\AppData\Local\openvr\openvrpath
 [GPU 4176] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 Unable to read VR Path Registry from C:\Users\cs\AppData\Local\openvr\openvrpaths.vrpath
 1545181825204	geckodriver::marionette	ERROR	Failed to stop browser process
+1545219514865	geckodriver	INFO	geckodriver 0.20.0
+1545219515006	geckodriver	INFO	Listening on 127.0.0.1:51842
+1545219517967	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\cs\\AppData\\Local\\Temp\\rust_mozprofile.jnfqwTwctwMv"
+1545219521383	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1-]: Mismatched driver versions between the registry 8.930.0.0 and DLL(s) 8.15.10.2342,  reported.
+1545219524406	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Mismatched driver versions between the registry 8.930.0.0 and DLL(s) 8.15.10.2342,  reported.
+[GFX1-]: Mismatched driver versions between the registry 8.930.0.0 and DLL(s) 8.15.10.2342,  reported.
+[GFX1-]: Mismatched driver versions between the registry 8.930.0.0 and DLL(s) 8.15.10.2342,  reported.
+Unable to read VR Path Registry from C:\Users\cs\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 4524] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\cs\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6068] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6068] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1545219537899	Marionette	INFO	Listening on port 51850
+1545219538015	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545219538077	Marionette	DEBUG	Register listener.js for window 6442450945
+1545219539503	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1545219539737	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1545219539738	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1545219544673	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545219544764	Marionette	DEBUG	Received DOM event "pageshow" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545219545705	Marionette	DEBUG	Received DOM event "beforeunload" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545219545832	Marionette	DEBUG	Received DOM event "pagehide" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545219545832	Marionette	DEBUG	Received DOM event "unload" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545219546284	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://135.64.22.33:18082/ordercenter/"
+1545219546313	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450950"
+1545219546314	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450951"
+1545219546315	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450952"
+1545219546315	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450953"
+1545219546315	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450954"
+1545219546927	Marionette	DEBUG	Received DOM event "pageshow" for "http://135.64.22.33:18082/ordercenter/"
+1545219547321	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Parent 4524] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win1545219573638	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\cs\\AppData\\Local\\Temp\\rust_mozprofile.e8QECm9YWolj"
+1545219575823	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1-]: Mismatched driver versions between the registry 8.930.0.0 and DLL(s) 8.15.10.2342,  reported.
+1545219578159	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Mismatched driver versions between the registry 8.930.0.0 and DLL(s) 8.15.10.2342,  reported.
+[GFX1-]: Mismatched driver versions between the registry 8.930.0.0 and DLL(s) 8.15.10.2342,  reported.
+[GFX1-]: Mismatched driver versions between the registry 8.930.0.0 and DLL(s) 8.15.10.2342,  reported.
+Unable to read VR Path Registry from C:\Users\cs\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7076] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1545219585856	Marionette	INFO	Listening on port 51935
+1545219586174	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545219586235	Marionette	DEBUG	Register listener.js for window 6442450945
+1545219586571	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1545219586603	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1545219586604	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1545219593231	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545219593414	Marionette	DEBUG	Received DOM event "pageshow" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545219594712	Marionette	DEBUG	Received DOM event "beforeunload" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545219594796	Marionette	DEBUG	Received DOM event "pagehide" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545219594797	Marionette	DEBUG	Received DOM event "unload" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545219595200	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://135.64.22.33:18082/ordercenter/"
+1545219595218	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450950"
+1545219595219	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450951"
+1545219595225	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450952"
+1545219595226	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450953"
+1545219595226	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450954"
+1545219595542	Marionette	DEBUG	Received DOM event "pageshow" for "http://135.64.22.33:18082/ordercenter/"
+1545219595859	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\cs\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6332] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\cs\AppData\Local\openvr\openvrpaths.vrpath
+1545274323118	geckodriver	INFO	geckodriver 0.20.0
+1545274323544	geckodriver	INFO	Listening on 127.0.0.1:55249
+1545274326377	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\cs\\AppData\\Local\\Temp\\rust_mozprofile.EWU8gAw42S2h"
+1545274343179	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1-]: Mismatched driver versions between the registry 8.930.0.0 and DLL(s) 8.15.10.2342,  reported.
+1545274347985	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Mismatched driver versions between the registry 8.930.0.0 and DLL(s) 8.15.10.2342,  reported.
+[GFX1-]: Mismatched driver versions between the registry 8.930.0.0 and DLL(s) 8.15.10.2342,  reported.
+[GFX1-]: Mismatched driver versions between the registry 8.930.0.0 and DLL(s) 8.15.10.2342,  reported.
+Unable to read VR Path Registry from C:\Users\cs\AppData\Local\openvr\openvrpaths.vrpath
+[Child 164] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1545274366434	Marionette	INFO	Listening on port 55267
+1545274367418	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545274367955	Marionette	DEBUG	Register listener.js for window 6442450945
+1545274368907	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1545274369338	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1545274369339	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1545274373330	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545274373358	Marionette	DEBUG	Received DOM event "pageshow" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545274374194	Marionette	DEBUG	Received DOM event "beforeunload" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545274374935	Marionette	DEBUG	Received DOM event "pagehide" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545274374935	Marionette	DEBUG	Received DOM event "unload" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545274375697	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://135.64.22.33:18082/ordercenter/"
+1545274375728	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450950"
+1545274375730	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450951"
+1545274375732	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450952"
+1545274375742	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450953"
+1545274375743	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450954"
+1545274376399	Marionette	DEBUG	Received DOM event "pageshow" for "http://135.64.22.33:18082/ordercenter/"
+1545274376845	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1545274378138	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "6442450957"
+1545274378142	Marionette	DEBUG	Received DOM event "popstate" for "http://135.64.22.33:18082/ordercenter/#"
+1545274380663	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\cs\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 6692] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6692] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\cs\AppData\Local\openvr\openvrpaths.vrpath
+[Child 6000] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6000] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ng on 127.0.0.1:55522
+1545274415183	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\cs\\AppData\\Local\\Temp\\rust_mozprofile.FJGP0niWB8bu"
+1545274416761	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1-]: Mismatched driver versions between the registry 8.930.0.0 and DLL(s) 8.15.10.2342,  reported.
+1545274419497	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Mismatched driver versions between the registry 8.930.0.0 and DLL(s) 8.15.10.2342,  reported.
+Unable to read VR Path Registry from C:\Users\cs\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 5288] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GFX1-]: Mismatched driver versions between the registry 8.930.0.0 and DLL(s) 8.15.10.2342,  reported.
+Unable to read VR Path Registry from C:\Users\cs\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7936] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7936] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[GFX1-]: Mismatched driver versions between the registry 8.930.0.0 and DLL(s) 8.15.10.2342,  reported.
+1545274429031	Marionette	INFO	Listening on port 55534
+1545274429554	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545274429713	Marionette	DEBUG	Register listener.js for window 4294967297
+1545274430446	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1545274430503	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1545274430504	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1545274433886	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545274433935	Marionette	DEBUG	Received DOM event "pageshow" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545274434611	Marionette	DEBUG	Received DOM event "beforeunload" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545274434776	Marionette	DEBUG	Received DOM event "pagehide" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545274434776	Marionette	DEBUG	Received DOM event "unload" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545274435773	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://135.64.22.33:18082/ordercenter/"
+1545274435797	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967302"
+1545274435798	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967303"
+1545274435801	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967304"
+1545274435802	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967305"
+1545274435841	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967306"
+1545274436522	Marionette	DEBUG	Received DOM event "pageshow" for "http://135.64.22.33:18082/ordercenter/"
+1545274437062	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1545274438342	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967309"
+1545274438345	Marionette	DEBUG	Received DOM event "popstate" for "http://135.64.22.33:18082/ordercenter/#"
+1545274441556	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Parent 5288] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\cs\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7800] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\cs\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9004] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\cs\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 7804] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1-]: Mismatched driver versions between the registry 8.930.0.0 and DLL(s) 8.15.10.2342,  reported.
+1545274489239	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Mismatched driver versions between the registry 8.930.0.0 and DLL(s) 8.15.10.2342,  reported.
+1545274498063	Marionette	INFO	Listening on port 55733
+1545274499003	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Mismatched driver versions between the registry 8.930.0.0 and DLL(s) 8.15.10.2342,  reported.
+[GFX1-]: Mismatched driver versions between the registry 8.930.0.0 and DLL(s) 8.15.10.2342,  reported.
+1545274502413	Marionette	DEBUG	Register listener.js for window 4294967297
+1545274502776	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1545274502862	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1545274502862	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1545274505906	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545274505930	Marionette	DEBUG	Received DOM event "pageshow" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545274506896	Marionette	DEBUG	Received DOM event "beforeunload" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545274507004	Marionette	DEBUG	Received DOM event "pagehide" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545274507005	Marionette	DEBUG	Received DOM event "unload" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545274507881	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://135.64.22.33:18082/ordercenter/"
+1545274507890	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967302"
+1545274507892	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967303"
+1545274507892	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967304"
+1545274507893	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967305"
+1545274507893	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967306"
+1545274508593	Marionette	DEBUG	Received DOM event "pageshow" for "http://135.64.22.33:18082/ordercenter/"
+1545274509034	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1545274510304	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967309"
+1545274510308	Marionette	DEBUG	Received DOM event "popstate" for "http://135.64.22.33:18082/ordercenter/#"
+1545274513221	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1545274513709	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1545274517239	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1545274517686	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\cs\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 6444] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\cs\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8916] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1545274552268	geckodriver	INFO	geckodriver 0.20.0
+1545274552298	geckodriver	INFO	Listening on 127.0.0.1:55925
+1545274555359	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\cs\\AppData\\Local\\Temp\\rust_mozprofile.aDaJWqWBQ1GO"
+1545274556935	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+[GFX1-]: Mismatched driver versions between the registry 8.930.0.0 and DLL(s) 8.15.10.2342,  reported.
+1545274559192	Marionette	INFO	Enabled via --marionette
+[GFX1-]: Mismatched driver versions between the registry 8.930.0.0 and DLL(s) 8.15.10.2342,  reported.
+[GFX1-]: Mismatched driver versions between the registry 8.930.0.0 and DLL(s) 8.15.10.2342,  reported.
+Unable to read VR Path Registry from C:\Users\cs\AppData\Local\openvr\openvrpaths.vrpath
+[Child 11176] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 11176] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2400FC,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: jar:file:///C:/Program%20Files/Mozilla%20Firefox/omni.ja!/components/extension-process-script.js, line 339: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+[GFX1-]: Mismatched driver versions between the registry 8.930.0.0 and DLL(s) 8.15.10.2342,  reported.
+1545274567706	Marionette	INFO	Listening on port 55938
+1545274568051	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545274568203	Marionette	DEBUG	Register listener.js for window 4294967297
+1545274568354	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1545274568419	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1545274568420	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1545274572553	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545274572653	Marionette	DEBUG	Received DOM event "pageshow" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545274573260	Marionette	DEBUG	Received DOM event "beforeunload" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545274573510	Marionette	DEBUG	Received DOM event "pagehide" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545274573511	Marionette	DEBUG	Received DOM event "unload" for "http://135.64.22.33:18082/ordercenter/loginController/login"
+1545274574314	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://135.64.22.33:18082/ordercenter/"
+1545274574320	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967302"
+1545274574322	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967303"
+1545274574322	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967304"
+1545274574323	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967305"
+1545274574324	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967306"
+1545274575024	Marionette	DEBUG	Received DOM event "pageshow" for "http://135.64.22.33:18082/ordercenter/"
+1545274575522	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1545274576823	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967309"
+1545274576826	Marionette	DEBUG	Received DOM event "popstate" for "http://135.64.22.33:18082/ordercenter/#"
+1545274579558	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1545274579903	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1545274583474	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1545274583962	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+Unable to read VR Path Registry from C:\Users\cs\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9388] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\cs\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7816] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\cs\AppData\Local\openvr\openvrpaths.vrpath
