@@ -1,87 +1,35 @@
-#coding:utf-8
-from selenium import webdriver
 import requests
-import json
+import pandas
 from bs4 import BeautifulSoup
-import urllib.request
-import re
-import time
-def get_url(url):     # 国内高匿代理的链接
-    url_list=[]
-    for i in range(1,100):
-        url_new=url+str(i)
-        url_list.append(url_new)
-    return url_list
+from fake_useragent import UserAgent
+def gethousedetail(url):#定义函数，目标获得子域名里的房屋详细信息
+    info={}#构造字典，作为之后的返回内容
+    res = requests.get(url, headers=headers1)
+    soup = BeautifulSoup(res.text, 'html.parser')
 
-def get_contents(url):
-    response = urllib.request.urlopen(url)
-    data = response.read().decode('utf-8')
-
-    return data
-def get_info(xml):
-    pattern = re.compile('<td data-title="IP">(.*?)</td>.*?<td data-title="PORT">(.*?)</td>', re.S)
-    items = re.findall(pattern, xml)
-    return items
+    info['房型']=soup.find('div',class_="mainInfo").get_text()
+    info['总价'] = soup.find('span', class_="total").get_text()+'万'
+    info['具体地点']=soup.find('a',class_="supplement").get_text()
+    info['标题']=soup.find('h1',class_="main").get_text()
+    info['单价'] = soup.find('span', class_="unitPriceValue").get_text()
 
 
 
-def chakd(num):
-    orc_url = 'http://scicglobal.com/wp-admin/admin-ajax.php?action=add_foobar&data='+num
-    res = requests.get(url=orc_url)
-    data=res.text
+    return info#传回这一个页面的详细信息
 
-    data = json.loads(data)
-    soup = BeautifulSoup(data['content'], 'lxml')
-    wuliu = soup.find("label", class_="act_me")
-    x=wuliu.get_text()
-    z=x.split('\t')
-    dingdan=z[0]
-    kuaidi=z[1]
-    return dingdan,kuaidi
-
-# driver = webdriver.Chrome()
-# driver.get("https://track.trackingmore.com/plugins.php?express=yunda&tracknumber=7700082981288&lang=cn")
-# print(driver.get_log('performance'))
-def chakuaidi(id,ty):
-    url='http://www.kuaidi100.com/query?type='+ty+'&postid='+id
-    req = urllib.request.Request(url)
-    res = urllib.request.urlopen(req)
-    conte = res.read().decode('utf-8')
-    data = json.loads(conte)
-    data=data['data']
-    for i in data:
-        print(i['time'],i['location'],i['context'])
-
-def verif_ip(ip,port,id,ty):
-    user_agent = 'Mozilla/4.0 (compatible; MSIE 5.5; Windows NT)'
-    headers = {'User-Agent': user_agent}
-    proxy={'http':'http://%s:%s'%(ip,port)}
-    repx = urllib.request.ProxyHandler(proxy)
-    opener = urllib.request.build_opener(repx)
-    url = 'http://www.kuaidi100.com/query?type=' + ty + '&postid=' + id
-    req=urllib.request.Request(url)
-    try:
-        res = opener.open(req)
-        conte = res.read().decode('utf-8')
-        data = json.loads(conte)
-        datas = data['data']
-        for i in datas:
-            print(i['time'], i['location'], i['context'])
-    except urllib.request.URLError as e:
-        print(e.reason)
-
-def txt():
-    with  open('file.txt','r') as fp:
-        lines = fp.readlines()
-    return lines
-
-if __name__ == '__main__':
-    lines=txt()
-    for line in lines:
-        ips = line.split(',')[0]
-        ports = line.split(',')[1]
-        print(ips,ports)
-        z='yunda'
-        x='7700082981288'
-        verif_ip(ips,ports,x,z)
-        # chakuaidi(x,z)
+ua=UserAgent()#使用随机header，模拟人类
+headers1={'User-Agent': 'ua.random'}#使用随机header，模拟人类
+houseary=[]#建立空列表放房屋信息
+domain='https://sh.lianjia.com/ershoufang/'#为了之后拼接子域名爬取详细信息
+for i in range(2,3):#爬取399页，想爬多少页直接修改替换掉400，不要超过总页数就好
+    res=requests.get('https://sh.lianjia.com/ershoufang/pg'+str(i),headers=headers1)#爬取拼接域名
+    soup = BeautifulSoup(res.text,'html.parser')#使用html筛选器
+    # print(soup)
+    for j in range(0,3):#网站每页呈现30条数据，循环爬取
+        url1=soup.select('.item')[j]['data-houseid'] #选中class=prop-title下的a标签里的第j个元素的href子域名内容
+        url=domain+url1+'.html'
+        print(url)
+        houseary.append(gethousedetail(url))#传入自编函数需要的参数
+print(houseary)
+df=pandas.DataFrame(houseary)
+df.to_excel('lianjia.xlsx')

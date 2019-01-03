@@ -34,6 +34,10 @@ class Mysql():
         self.mycursor.execute(sql,na)
         self.mydb.commit()
         print(self.mycursor.rowcount, " 条记录删除")
+    def insert(self):
+        sql = "INSERT INTO `tech_courses` (`total`, `price`, `area`, `type`, `local`, `title`, `created_time`) VALUES('235', '18196元/平米', '129.15平米暂无数据', '3室2厅高楼层/共24层', '所在区域五华顺城', '南北通透朝南看金马坊朝北看南屏街，视野开阔阳光充足', '2019-01-03 13:46:34')"
+        self.mycursor.execute(sql)
+        self.mydb.commit()
 
 if __name__ == '__main__':
-    Mysql().Select()
+    Mysql().insert()
