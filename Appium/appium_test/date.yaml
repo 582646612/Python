@@ -15,10 +15,10 @@ wechat:
   platformVersion: 6.0
   dunicodeKeyboard: true
   resetKeyboard: True
-  deviceName: 78a88b73
+  deviceName: CSXDU18124002834
   appPackage : com.tencent.mm
   appActivity : .ui.LauncherUI
-  
+
 Setting:
   platformName: Android
   platformVersion: 6.0

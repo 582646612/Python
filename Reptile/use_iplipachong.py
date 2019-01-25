@@ -55,7 +55,7 @@ def chakuaidi(id,ty):
 
 def verif_ip(ip,port,id,ty):
     ua = UserAgent()  # 使用随机header，模拟人类
-    headers1 = {'User-Agent': 'ua.random'}  # 使用随机header，模拟人类
+    headers1 = {'User-Agent': ua.random}  # 使用随机header，模拟人类
     proxy={'http':'http://%s:%s'%(ip,port)}
     repx = urllib.request.ProxyHandler(proxy)
     opener = urllib.request.build_opener(repx)

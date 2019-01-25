@@ -18,7 +18,7 @@ except:
     driver.find_element_by_id("com.asiainfo.wcs:id/iv_cbss_login").click()
     time.sleep(1)
     driver.find_element_by_id("com.asiainfo.wcs:id/login_account_input_edit").send_keys("KMCSGH000051")
-    driver.find_element_by_id("com.asiainfo.wcs:id/login_psw_input_edit").send_keys("Yy198623..")
+    driver.find_element_by_id("com.asiainfo.wcs:id/login_psw_input_edit").send_keys("Ss114320..**")
     driver.find_element_by_id("com.asiainfo.wcs:id/login_vercode_input_edit").send_keys("123")
     driver.find_element_by_id("com.asiainfo.wcs:id/login_btn").click()
 WebDriverWait(driver, 15).until(expected_conditions.presence_of_element_located((By.NAME,"kaihu")))

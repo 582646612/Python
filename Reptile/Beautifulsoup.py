@@ -34,3 +34,16 @@ print (link_node.name, link_node['href'], link_node['class'], link_node.get_text
 print ("获取P段落的文字")
 p_node = soup.find('p', class_='story')
 print (p_node.name, p_node['class'], p_node.get_text())
+
+
+'''
+soup.select('a[href]')某个属性来查找
+soup.select('a[href^="http://example.com/"]')  #匹配值的开头
+soup.select('a[href$="tillie"]')  #匹配值的结尾
+soup.select('a[href*=".com/el"]')  #模糊匹配
+soup.select('.title')  CSS类名查找
+soup.select('[class~=title]')
+tag的id查找
+soup.select('#link1')
+soup.select('a#link2')
+'''
