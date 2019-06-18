@@ -35,7 +35,7 @@ if __name__ == '__main__':
     print(binascii.b2a_hex('南北'.encode()))
     print(binascii.a2b_hex(b'e58d97e58c97').decode())
 
-    print(parse.quote('南北'))
+    print(parse.quote('南北'))           #网址
     print(parse.unquote('%E5%8D%97%E5%8C%97'))
 
     print(base64.b64encode(b'hello world'))

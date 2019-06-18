@@ -6,7 +6,13 @@ def get_time():
     dt = time.strftime("%Y-%m-%d_%H:%M:%S", time.localtime())
     return dt
 
+t = time.time()
+print (int(round(t * 1000)))    #毫秒级时间戳
 
+nowTime = lambda:int(round(t * 1000))
+print (nowTime());              #毫秒级时间戳，基于lambda
+
+print (datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'))   #日期格式化
 
 def getYesterday():
     today = datetime.date.today()

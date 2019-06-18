@@ -1,6 +1,6 @@
 #coding:utf-8
 from appium import webdriver
-from Function import Z_unlock,L_unlock,Open_app
+from Function import Z_unlock,L_unlock,Open_app,Scroll_up
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.common.by import By
@@ -18,11 +18,16 @@ except:
     driver.find_element_by_id("com.asiainfo.wcs:id/iv_cbss_login").click()
     time.sleep(1)
     driver.find_element_by_id("com.asiainfo.wcs:id/login_account_input_edit").send_keys("KMCSGH000051")
-    driver.find_element_by_id("com.asiainfo.wcs:id/login_psw_input_edit").send_keys("Ss114320..**")
+    driver.find_element_by_id("com.asiainfo.wcs:id/login_psw_input_edit").send_keys("Ss114320")
     driver.find_element_by_id("com.asiainfo.wcs:id/login_vercode_input_edit").send_keys("123")
     driver.find_element_by_id("com.asiainfo.wcs:id/login_btn").click()
-WebDriverWait(driver, 15).until(expected_conditions.presence_of_element_located((By.NAME,"kaihu")))
-driver.find_element_by_name("kaihu").click()
+
+time.sleep(17)
+# Z_unlock(driver)
+Scroll_up(driver)
+Scroll_up(driver)
+time.sleep(4)
+driver.find_element_by_xpath("//*[@text='腾讯大王卡']").click()
 time.sleep(3)
 
 

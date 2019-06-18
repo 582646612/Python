@@ -15,7 +15,7 @@ wechat:
   platformVersion: 6.0
   dunicodeKeyboard: true
   resetKeyboard: True
-  deviceName: CSXDU18124002834
+  deviceName: 127.0.0.1:6555
   appPackage : com.tencent.mm
   appActivity : .ui.LauncherUI
 

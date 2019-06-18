@@ -11,7 +11,7 @@ try:
     request = urllib.request.Request(url,headers = headers)
     response = urllib.request.urlopen(request)
     content = response.read().decode('utf-8')
-    # print(content)
+    print(content)
     pattern = re.compile('<div class="content".*?span>(.*?)</span.*?</div>',re.S)
     items = re.findall(pattern,content)
     for x in items:

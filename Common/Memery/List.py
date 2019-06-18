@@ -5,10 +5,13 @@ list3 = ["a", "b", "c", "d"]
 
 list1.append('Google')   ## 使用 append() 添加元素
 del list1[2]#删除
-
+# sorted(list),list.sort() #排序
 print (len(list2))
 print (max(list2))
 print (min(list2))
+list2.reverse()  #反向
+list2.sort()   #排序
+print(list2)
 print (list1.insert(1997,1))
 
 '''list.extend(seq)
