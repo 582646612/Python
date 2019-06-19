@@ -13,9 +13,9 @@ def get_cookie():
         driver.find_element_by_xpath("//*[@id='keepOnForm']/div[2]/div/div[2]/div[2]/ul/li[1]/a").send_keys(Keys.ENTER)
     except:
         print()
-    time.sleep(2)
-    result=driver.get_cookies()
-    # driver.quit()
+    time.sleep(20)
+    result= driver.get_cookies()
+    driver.quit()
     return result#[0]['value']
 def write_file(x):
     conten =x

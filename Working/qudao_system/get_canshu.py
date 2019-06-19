@@ -1,7 +1,6 @@
 import requests
 import json
 from get_readfile import read_file
-from get_csv import getcsv
 def get_address(add,date):
     orc_url = 'http://10.123.0.126:18210/CIS-CHAR/business/com.ailk.uchannel.commmgr.web.AddCommissionAction?action=getChnlNameByChnlId&url_source=AilkPageInteractionManager'
     date = {

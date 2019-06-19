@@ -1,5 +1,4 @@
 import requests
-import csv
 import pandas as pd
 from urllib import parse
 from get_readfile import read_file
