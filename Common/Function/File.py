@@ -7,7 +7,8 @@
 r+ 可读写文件(可读；可写；可追加)
 w+ 写读
  a+ 同a'''
-import csv
+import xlrd
+import pandas as pd
 def read():
     fin = open("D:\\autodate\\yonghu.txt", "r")
     ct = fin.read()
@@ -45,3 +46,17 @@ def csv():
         print (username)
         password = line.split(',')[1]
         print (password)
+
+def getcsv(name):
+    df = pd.read_csv(name,encoding='GB18030')
+    list_label = df.columns.values
+    list_data =df.values.tolist()
+    return list_data
+def get_xls():
+    data = xlrd.open_workbook("qujing.xls") # 所有行
+    table = data.sheet_by_name('Sheet1')
+    nrows = table.nrows  # 行数
+    list=[]
+    for i in range(1, nrows):
+        list.append(table.row_values(i))
+    return list

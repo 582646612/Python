@@ -4,7 +4,7 @@ import yaml
 
 
 # open方法打开直接读出来
-f = open("test.yaml", 'r')
+f = open("test.yaml", 'r',encoding='utf8')
 cfg = f.read()
 # print(cfg)
 d = yaml.load(cfg)  # 用load方法转字典

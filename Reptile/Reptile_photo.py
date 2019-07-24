@@ -20,7 +20,7 @@ x=0
 os.chdir(os.path.join(os.getcwd(), 'picture'))
 for i in imglist:
     urllib.urlretrieve(i,'%s.jpg' %x)
-    print i
+    print (i)
     x+=1
 
 

@@ -1,0 +1,68 @@
+运行Autologin.py,需要先安装Tesseract软件
+
+1、下载安装：地址：  https://sourceforge.net/projects/tesseract-ocr/
+		           https://www.cr173.com/soft/431475.html
+
+2、默认安装成功后，配置环境变量
+	Path增加C:\Program Files (x86)\Tesseract-OCR
+   再新增一条：
+	变量名(N)：TESSDATA_PREFIX
+	变量值(V)：C:/Program Files (x86)/Tesseract-OCR/tessdata
+
+3、pip install pytesseract
+   进入pytesseract.py
+   修改	tesseract_cmd = 'tesseract' 为
+        tesseract_cmd =  r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'
+
+字段			名称
+AMOUNT			调整应付净额
+CHNL_ID			渠道编码
+CHNL_NAME		发展渠道
+COMM_TYPE		佣金类型
+COST_ATTR		成本所属中心
+CUSTOMER_CODE	客户类别
+MEMO			调整依据
+SETT_CYCLE		账期
+TOTAL_AMOUNT	补贴参考总额
+VAT_TAX			调整参考税额
+SUBSIDY_TYPE	补贴方式
+invoice_type    发票类型
+USAGE_TYPE		补贴用途
+PAY_OBJECT_TYPE	结算对象类型
+
+
+结算对象类型：
+	渠道			01
+	发展人		02
+
+客户类别：
+	集团			01
+	公众			02
+
+补贴方式：
+	现金			1
+	实物			2
+
+发票类型：
+	增值税专用发票	1
+	增值税普通发票	2
+
+佣金类型：
+	销售佣金		01
+	清欠佣金		02
+	服务佣金		03
+	奖罚佣金		04
+	维系佣金		05
+
+成本所属中心：
+	本省			99999999
+	沃商店基地	0904325
+	阅读基地		0904324
+	音乐基地		0904323
+	
+补贴用途：
+	房屋补贴		1
+	装修费补贴	2
+	设施补贴		3
+	宣传补贴		4
+	其他一次性补贴5

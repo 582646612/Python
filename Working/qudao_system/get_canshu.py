@@ -12,13 +12,14 @@ def get_address(add,date):
     }
     head = {
         'Content-Type': 'application/x-www-form-urlencoded',
-        'Cookie': 'JSESSIONID='+read_file('cook.txt')
+        'Cookie': 'JSESSIONID='+read_file('cooks.txt')
     }
-
-    res = requests.post(url=orc_url,data=date,headers=head).text
-    res=json.loads(res)
-    return res['chnlName'],res['paychnlname']
-
+    try:
+        res = requests.post(url=orc_url,data=date,headers=head).text
+        res=json.loads(res)
+        return res['chnlName'], res['paychnlname']
+    except:
+        print("Cookie已失效，请登录浏览器获取Cookie并更新于cooks.txt文件中")
 
 def get_money(add,sum,date):
     orc_url = 'http://10.123.0.126:18210/CIS-CHAR/business/com.ailk.uchannel.commmgr.web.AddCommissionAction?action=getTax&url_source=AilkPageInteractionManager'
@@ -32,16 +33,19 @@ def get_money(add,sum,date):
     }
     head = {
         'Content-Type': 'application/x-www-form-urlencoded',
-        'Cookie': 'JSESSIONID='+read_file('cook.txt')
+        'Cookie': 'JSESSIONID='+read_file('cooks.txt')
     }
-    res = requests.post(url=orc_url, data=date, headers=head).text
-    res=json.loads(res)
-    return res['tax'],res['pureAmount']
+    try:
+        res = requests.post(url=orc_url, data=date, headers=head).text
+        res=json.loads(res)
+        return res['tax'],res['pureAmount']
+    except:
+        print("Cookie已失效，请登录浏览器获取Cookie并更新于cooks.txt文件中")
 
 
 if __name__ == '__main__':
     # adds=get_address('86b24kp','201905')
     # print(adds)
-    themoney=get_money('86b24kp',12500,'201905')
+    themoney=get_money('86b0m5x',270,'201906')
     print(themoney)
 
