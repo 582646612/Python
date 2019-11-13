@@ -2,81 +2,81 @@
 CIS.NJ_USER: tianxj
 CIS.NJ_PASSWORD: 123%zyzx
 CIS.NJ_EXCEL: D:/auto/补贴/怒江.xls
-#
+
 #保山
 CIS.BS_USER: yn-zhuyp
 CIS.BS_PASSWORD: 123%zyzx
 CIS.BS_EXCEL: D:/auto/sg/bs.xls
-#
+
 #昆明
 CIS.KM_USER: wanglg87
-CIS.KM_PASSWORD: 123%zyzx1
+CIS.KM_PASSWORD: 289525wlg@
 CIS.KM_EXCEL: D:/auto/sg/km.xls
-#
+
 #临沧
 CIS.LC_USER: wangzh185
 CIS.LC_PASSWORD: 123%zyzx
 CIS.LC_EXCEL: D:/auto/bt/lc.xls
-#
+
 #丽江
 CIS.LJ_USER: yn-lixh6
 CIS.LJ_PASSWORD: 123%zyzx
 CIS.LJ_EXCEL: D:/auto/bt/lj.xls
-#
+
 #曲靖
 CIS.QJ_USER: yn-wangxb3
 CIS.QJ_PASSWORD: 123%zyzx
 CIS.QJ_EXCEL: D:/auto/sg/qj.xls
-#
+
 #昭通
 CIS.ZT_USER: zhangym280
 CIS.ZT_PASSWORD: 1234%zyzx
 CIS.ZT_EXCEL: D:/auto/sg/zt.xls
-#
-#
+
+
 #玉溪
 CIS.YX_USER: yn-jiangjin
-CIS.YX_PASSWORD: 123#zyzx
+CIS.YX_PASSWORD: 123%zyzx
 CIS.YX_EXCEL: D:/auto/sg/yx.xls
-#
-#
+
+
 #普洱
 CIS.PE_USER: yn-jinsn3
 CIS.PE_PASSWORD: 123%zyzx
 CIS.PE_EXCEL: D:/auto/bt/pe.xls
-#
+
 #楚雄
 CIS.CX_USER: yn-zhangjie3
 CIS.CX_PASSWORD: 123%zyzx
 CIS.CX_EXCEL: D:/auto/bt/cx.xls
-#
+
 #西双版纳
 CIS.BN_USER: yn-sufang
 CIS.BN_PASSWORD: 123%zyzx
 CIS.BN_EXCEL: D:/auto/bt/bn.xls
-#
+
 #德宏
-CIS.DH_USER: yn-licy
-CIS.DH_PASSWORD: Lcy160403
+CIS.DH_USER: yn-licy10
+CIS.DH_PASSWORD: Lcy860216
 CIS.DH_EXCEL: D:/auto/sg/dh.xls
-#
+
 #大理
 CIS.DL_USER: yn-hejz
-CIS.DL_PASSWORD: Aa(960813)
+CIS.DL_PASSWORD: 960813Aa()
 CIS.DL_EXCEL: D:/auto/sg/dl.xls
-#
+
 #红河
 CIS.HH_USER: yn-pangq3
-CIS.HH_PASSWORD: 123@zyzx
+CIS.HH_PASSWORD: 123%zyzx
 CIS.HH_EXCEL: D:/auto/sg/hh.xls
-#
+
 #文山
 CIS.WS_USER: dujf20
-CIS.WS_PASSWORD: 136910Djf!
+CIS.WS_PASSWORD: 136910Djf!!
 CIS.WS_EXCEL: D:/auto/sg/ws.xls
-#
+
 #迪庆
 CIS.DQ_USER: heqf21
 CIS.DQ_PASSWORD: 123@zyzx
 CIS.DQ_EXCEL: D:/auto/bt/dq.xls
-#
+

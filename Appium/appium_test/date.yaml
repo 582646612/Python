@@ -10,6 +10,16 @@ woyunxiao :
    appPackage : com.asiainfo.wcs
    appActivity : .ui.splash.SplashActivity
 
+qixin :
+   platformName : Android
+   platformVersion : 6.0
+   dunicodeKeyboard : true
+   resetKeyboard : True
+   noReset : True
+   deviceName : 127.0.0.1:6555
+   appPackage : com.bonc.mobile.jlmhim.tt
+   appActivity : .StartActivity
+
 wechat:
   platformName: Android
   platformVersion: 6.0

@@ -139,4 +139,4 @@ def bing():
 
     # 显示图形
     plt.show()
-bing()
+tiao1()

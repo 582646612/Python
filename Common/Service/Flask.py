@@ -8,7 +8,7 @@ app=Flask(__name__)
 def home():
     return '<h1>Home</h1>'
 
-@app.route('/signin',methods=['GET'])3
+@app.route('/signin',methods=['GET'])
 def signin_form():
     return '''<form action="/signin" method="post">
              <p><imput name="username"></p>

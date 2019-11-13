@@ -1,12 +1,11 @@
 import requests
-from get_readfile import read_file
 import json
-orc_url = 'http://10.123.0.126:18210/CIS-CHAR/business/com.ailk.uchannel.commmgr.web.AddCommissionAction?action=saveCommission&url_source=AilkPageInteractionManage'
-head = {
+def api(xm1,xm2,mem1,date,partid,cooks):
+    orc_url = 'http://10.123.0.126:18210/CIS-CHAR/business/com.ailk.uchannel.commmgr.web.AddCommissionAction?action=saveCommission&url_source=AilkPageInteractionManage'
+    head = {
         'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
-        'Cookie': 'JSESSIONID='+read_file('cooks.txt')
+        'Cookie': 'JSESSIONID=' + cooks
     }
-def api(xm1,xm2,mem1,date):
     date = {
         'xml1':xm1,
         'xml2':xm2,
@@ -17,12 +16,18 @@ def api(xm1,xm2,mem1,date):
         'settCycle':date,
         'invoice_type':'1',
         'uploadlist':''	,
+        'mngdepartid':partid,
         'CenterValue':'86',
         'CenterType':'commmgr'
     }
     res = requests.post(url=orc_url,data=date,headers=head).text
     return json.loads(res)
-def api_rg(xm1,xm2,mem1,date): #人工
+def api_rg(xm1,xm2,mem1,date,partid,agentdepttype,cooks): #人工
+    orc_url = 'http://10.123.0.126:18210/CIS-CHAR/business/com.ailk.uchannel.commmgr.web.AddCommissionAction?action=saveCommission&url_source=AilkPageInteractionManage'
+    head = {
+        'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
+        'Cookie': 'JSESSIONID=' + cooks
+    }
     date= {
         'xml1':xm1,
         'xml2':xm2,
@@ -33,6 +38,8 @@ def api_rg(xm1,xm2,mem1,date): #人工
         'settCycle':date,
         'invoice_type':'1',
         'uploadlist':''	,
+        'mngdepartid':partid,
+        'depttype':agentdepttype,
         'CenterValue':'86',
         'CenterType':'commmgr'
     }

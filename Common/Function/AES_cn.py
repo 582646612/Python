@@ -1,5 +1,5 @@
 # 导入AES模块
-from Cryptodome.Cipher import DES
+from Cryptodome.Cipher import DES #pycryptodome
 import binascii
 from Cryptodome.Cipher import AES
 from Cryptodome import Random

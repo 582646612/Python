@@ -1,4 +1,4 @@
-import execjs
+import execjs #PyExecJS
 def get_des_psswd(date):
     jsstr = get_js()
     ctx = execjs.compile(jsstr) #加载JS文件

@@ -5,10 +5,9 @@ from time import sleep
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.common.by import By
-from  Function import send_message,Open_app
+from Function import Open_app
 # desired_caps=Open_app("wechat")
 desired_caps={'platformName': 'Android', 'platformVersion': 6.0, 'dunicodeKeyboard': False, 'resetKeyboard': False, 'deviceName': '127.0.0.1:6555', 'appPackage': 'com.tencent.mm', 'appActivity': '.ui.LauncherUI'}
-
 driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
 sleep(3)
 try:

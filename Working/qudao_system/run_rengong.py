@@ -1,22 +1,17 @@
-from get_csv import get_xls
-from get_xml import xml1_rg,xml2_rg
-from api import api_rg
+from Autologin import auto_login
+from get_xls import get_xls
+
 if __name__ == '__main__':#发展人不行，结算对象为【渠道】,共I列
-    data = get_xls('C:\\Users\LT\Desktop\曲靖.xls')
-    success, fail = 0, 0
-    sum=1
-    for i in data:
-        print("总数:",len(data),",正在执行第",sum,'条')
-        x=xml1_rg(i)
-        y=xml2_rg(i)
-        put=api_rg(x,y,i[8],i[2])
-        if put['STATUS_CODE']=='0' or put['STATUS_CODE']=='1':
-            success+=1
-        elif put['STATUS_CODE']=='2':
-            print(i)
-            print(put)
-            fail+=1
-        sum+=1
-    print("总的条数为：", len(data))
-    print("成功条数为：", success)
-    print("失败条数为：", fail)
+    # ['版纳','保山','楚雄','大理','德宏','迪庆','红河','昆明','丽江','临沧','怒江','普洱','曲靖','文山','玉溪','昭通']
+    tity=['版纳','楚雄']
+    for i in tity:
+        print('****************************************************************')
+        print("正在执行地市：", i)
+        try:
+            local = 'C:\\Users\LT\Desktop\\' + i + '.xlsx'
+            data = get_xls(local)
+            auto_login(local, i, 'run_rengong')
+        except:
+            print("执行失败，无"+i+"地市文件")
+
+

@@ -8,7 +8,6 @@ from appium.webdriver.common.multi_action import MultiAction
 def Open_app(name):
     files = open("date.yaml", 'r').read()
     desired_caps = yaml.load(files)[name]
-    print(desired_caps)
     return desired_caps
 
 def Z_unlock(driver):
